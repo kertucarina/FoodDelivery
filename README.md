@@ -10,6 +10,6 @@ Developed a sub-functionality of a food delivery application, which calculates t
 * REST interface, which enables to request the delivery fee according to input parameters
 
 ## Technologies used
-* Java
+* Java 17
 * Spring framework
 * H2 database
