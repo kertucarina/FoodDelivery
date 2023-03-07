@@ -8,3 +8,8 @@ Developed a sub-functionality of a food delivery application, which calculates t
 * Configurable scheduled task for importing weather data (CronJob)
 * Functionality to calculate delivery fee according to business rules
 * REST interface, which enables to request the delivery fee according to input parameters
+
+## Technologies used
+* Java
+* Spring framework
+* H2 database
