@@ -28,8 +28,7 @@ public class ScheduledTask {
      * every hour at HH:15:00 and inserts the received weather data for Tallinn, Tartu and Pärnu
      * into the database.
      */
-    //@Scheduled(cron = "* 15 * * * *")
-    @Scheduled(cron = "* * * * * *")
+    @Scheduled(cron = "* 15 * * * *")
     public void retrieveWeatherData() {
         try {
             List<String> stations = new ArrayList<>(List.of("Tallinn-Harku", "Tartu-Tõravere", "Pärnu"));
